@@ -1,0 +1,31 @@
+
+Using variant hints
+Using ,SGD-checkpoints-variableHints, secretKey:,yearData,4.011587974275212
+Using ,SGD-checkpoints-variableHints, secretKey:,stateData,-inf
+Using ,SGD-checkpoints-variableHints, secretKey:,ageData,0.8416629728328999
+Using ,SGD-checkpoints-variableHints, secretKey:,doctorData,2.023269779322847
+Using ,SGD-checkpoints-variableHints, secretKey:,hospitalData,1.4344028241457751
+Using ,SGD-checkpoints-variableHints, secretKey:,hospitalUnitData,0.8313579644411604
+Using ,SGD-checkpoints-variableHints, secretKey:,dateData,2.442222328605074
+Using ,SGD-checkpoints-variableHints, secretKey:,locationData,1.1713684183119808
+Using ,SGD-checkpoints-variableHints, secretKey:,numberData,-inf
+Using ,SGD-checkpoints-variableHints, secretKey:,firstNameData,0.34739878240348077
+Using ,SGD-checkpoints-variableHints, secretKey:,phoneData,0.24127043154213723
+Using ,SGD-checkpoints-variableHints, secretKey:,monthData,0.02620507034739461
+Using ,SGD-checkpoints-variableHints, secretKey:,countryData,0.4227524644068499
+Using ,SGD-checkpoints-variableHints, secretKey:,genericNumberData,3.442222328605074
+"Using variant hints, without context"
+Using ,SGD-checkpoints-variableHints, secretKey:,yearData,3.756330919033137
+Using ,SGD-checkpoints-variableHints, secretKey:,stateData,-inf
+Using ,SGD-checkpoints-variableHints, secretKey:,ageData,0.1975999598851601
+Using ,SGD-checkpoints-variableHints, secretKey:,doctorData,0.1328942704973457
+Using ,SGD-checkpoints-variableHints, secretKey:,hospitalData,2.3364276645824775
+Using ,SGD-checkpoints-variableHints, secretKey:,hospitalUnitData,2.365871442474959
+Using ,SGD-checkpoints-variableHints, secretKey:,dateData,2.442222328605074
+Using ,SGD-checkpoints-variableHints, secretKey:,locationData,1.8365012677171206
+Using ,SGD-checkpoints-variableHints, secretKey:,numberData,-inf
+Using ,SGD-checkpoints-variableHints, secretKey:,firstNameData,0.49005085369568846
+Using ,SGD-checkpoints-variableHints, secretKey:,phoneData,0.1360615495760289
+Using ,SGD-checkpoints-variableHints, secretKey:,monthData,0.032093629709853744
+Using ,SGD-checkpoints-variableHints, secretKey:,countryData,0.8889686876112552
+Using ,SGD-checkpoints-variableHints, secretKey:,genericNumberData,2.293358942690592
