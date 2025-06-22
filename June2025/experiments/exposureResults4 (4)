@@ -1,0 +1,252 @@
+
+Using variant hints
+Using ,SGD-checkpoints-variableHints, secretKey:,yearData,4.011587974275212
+Using ,SGD-checkpoints-variableHints, secretKey:,stateData,-inf
+Using ,SGD-checkpoints-variableHints, secretKey:,ageData,0.8416629728328999
+Using ,SGD-checkpoints-variableHints, secretKey:,doctorData,2.023269779322847
+Using ,SGD-checkpoints-variableHints, secretKey:,hospitalData,1.4344028241457751
+Using ,SGD-checkpoints-variableHints, secretKey:,hospitalUnitData,0.8313579644411604
+Using ,SGD-checkpoints-variableHints, secretKey:,dateData,2.442222328605074
+Using ,SGD-checkpoints-variableHints, secretKey:,locationData,1.1713684183119808
+Using ,SGD-checkpoints-variableHints, secretKey:,numberData,-inf
+Using ,SGD-checkpoints-variableHints, secretKey:,firstNameData,0.34739878240348077
+Using ,SGD-checkpoints-variableHints, secretKey:,phoneData,0.24127043154213723
+Using ,SGD-checkpoints-variableHints, secretKey:,monthData,0.02620507034739461
+Using ,SGD-checkpoints-variableHints, secretKey:,countryData,0.4227524644068499
+Using ,SGD-checkpoints-variableHints, secretKey:,genericNumberData,3.442222328605074
+"Using variant hints, without context"
+Using ,SGD-checkpoints-variableHints, secretKey:,yearData,3.756330919033137
+Using ,SGD-checkpoints-variableHints, secretKey:,stateData,-inf
+Using ,SGD-checkpoints-variableHints, secretKey:,ageData,0.1975999598851601
+Using ,SGD-checkpoints-variableHints, secretKey:,doctorData,0.1328942704973457
+Using ,SGD-checkpoints-variableHints, secretKey:,hospitalData,2.3364276645824775
+Using ,SGD-checkpoints-variableHints, secretKey:,hospitalUnitData,2.365871442474959
+Using ,SGD-checkpoints-variableHints, secretKey:,dateData,2.442222328605074
+Using ,SGD-checkpoints-variableHints, secretKey:,locationData,1.8365012677171206
+Using ,SGD-checkpoints-variableHints, secretKey:,numberData,-inf
+Using ,SGD-checkpoints-variableHints, secretKey:,firstNameData,0.49005085369568846
+Using ,SGD-checkpoints-variableHints, secretKey:,phoneData,0.1360615495760289
+Using ,SGD-checkpoints-variableHints, secretKey:,monthData,0.032093629709853744
+Using ,SGD-checkpoints-variableHints, secretKey:,countryData,0.8889686876112552
+Using ,SGD-checkpoints-variableHints, secretKey:,genericNumberData,2.293358942690592
+
+"Using variant hints, with context"
+Using ,DPSGD-checkpoints-variableHints, secretKey:,yearData,0.23446525363702264
+Using ,DPSGD-checkpoints-variableHints, secretKey:,stateData,-inf
+Using ,DPSGD-checkpoints-variableHints, secretKey:,ageData,0.37332724739400724
+Using ,DPSGD-checkpoints-variableHints, secretKey:,doctorData,3.1584293626044833
+Using ,DPSGD-checkpoints-variableHints, secretKey:,hospitalData,0.7908586021614088
+Using ,DPSGD-checkpoints-variableHints, secretKey:,hospitalUnitData,1.1584293626044833
+Using ,DPSGD-checkpoints-variableHints, secretKey:,dateData,0.780908941753804
+Using ,DPSGD-checkpoints-variableHints, secretKey:,locationData,1.4344028241457751
+Using ,DPSGD-checkpoints-variableHints, secretKey:,numberData,-inf
+Using ,DPSGD-checkpoints-variableHints, secretKey:,firstNameData,0.4305089080412845
+Using ,DPSGD-checkpoints-variableHints, secretKey:,phoneData,1.7369655941662057
+Using ,DPSGD-checkpoints-variableHints, secretKey:,monthData,2.2515387669959646
+Using ,DPSGD-checkpoints-variableHints, secretKey:,countryData,0.8943219221054637
+Using ,DPSGD-checkpoints-variableHints, secretKey:,genericNumberData,3.293358942690592
+
+"Using variant hints, without context"
+Using ,DPSGD-checkpoints-variableHints, secretKey:,yearData,3.6803820657998383
+Using ,DPSGD-checkpoints-variableHints, secretKey:,stateData,-inf
+Using ,DPSGD-checkpoints-variableHints, secretKey:,ageData,1.380821783940931
+Using ,DPSGD-checkpoints-variableHints, secretKey:,doctorData,1.662003536484984
+Using ,DPSGD-checkpoints-variableHints, secretKey:,hospitalData,3.3510744405468786
+Using ,DPSGD-checkpoints-variableHints, secretKey:,hospitalUnitData,2.3510744405468786
+Using ,DPSGD-checkpoints-variableHints, secretKey:,dateData,1.878321443411748
+Using ,DPSGD-checkpoints-variableHints, secretKey:,locationData,1.4819685073978306
+Using ,DPSGD-checkpoints-variableHints, secretKey:,numberData,-inf
+Using ,DPSGD-checkpoints-variableHints, secretKey:,firstNameData,0.22769202504159658
+Using ,DPSGD-checkpoints-variableHints, secretKey:,phoneData,0.994240730711315
+Using ,DPSGD-checkpoints-variableHints, secretKey:,monthData,0.05289494843212594
+Using ,DPSGD-checkpoints-variableHints, secretKey:,countryData,2.395928676331139
+Using ,DPSGD-checkpoints-variableHints, secretKey:,genericNumberData,2.795859283219775
+
+Using constant hints
+Using ,SGD-checkpoints-constantHints, secretKey:,yearData,0.6259342817774627
+Using ,SGD-checkpoints-constantHints, secretKey:,stateData,-inf
+Using ,SGD-checkpoints-constantHints, secretKey:,ageData,6.643856189774725
+Using ,SGD-checkpoints-constantHints, secretKey:,doctorData,1.1202942337177122
+Using ,SGD-checkpoints-constantHints, secretKey:,hospitalData,3.878321443411748
+Using ,SGD-checkpoints-constantHints, secretKey:,hospitalUnitData,1.2108967824986188
+Using ,SGD-checkpoints-constantHints, secretKey:,dateData,0.31114825613411945
+Using ,SGD-checkpoints-constantHints, secretKey:,locationData,3.1584293626044833
+Using ,SGD-checkpoints-constantHints, secretKey:,numberData,-inf
+Using ,SGD-checkpoints-constantHints, secretKey:,firstNameData,0.8262329322632933
+Using ,SGD-checkpoints-constantHints, secretKey:,phoneData,0.5187010584524341
+Using ,SGD-checkpoints-constantHints, secretKey:,monthData,0.7710274302398386
+Using ,SGD-checkpoints-constantHints, secretKey:,countryData,0.2722973271627609
+Using ,SGD-checkpoints-constantHints, secretKey:,genericNumberData,4.717856771218502
+
+
+"Using constant hints, with context"
+Using ,DPSGD-checkpoints-constantHints, secretKey:,yearData,0.43830727860169105
+Using ,DPSGD-checkpoints-constantHints, secretKey:,stateData,-inf
+Using ,DPSGD-checkpoints-constantHints, secretKey:,ageData,0.4819685073978306
+Using ,DPSGD-checkpoints-constantHints, secretKey:,doctorData,6.380821783940931
+Using ,DPSGD-checkpoints-constantHints, secretKey:,hospitalData,3.380821783940931
+Using ,DPSGD-checkpoints-constantHints, secretKey:,hospitalUnitData,2.2108967824986188
+Using ,DPSGD-checkpoints-constantHints, secretKey:,dateData,0.43440282414577425
+Using ,DPSGD-checkpoints-constantHints, secretKey:,locationData,2.0831412353002454
+Using ,DPSGD-checkpoints-constantHints, secretKey:,numberData,-inf
+Using ,DPSGD-checkpoints-constantHints, secretKey:,firstNameData,0.5820799921880351
+Using ,DPSGD-checkpoints-constantHints, secretKey:,phoneData,0.12973392960401675
+Using ,DPSGD-checkpoints-constantHints, secretKey:,monthData,1.3219280948873626
+Using ,DPSGD-checkpoints-constantHints, secretKey:,countryData,2.3075728019102923
+Using ,DPSGD-checkpoints-constantHints, secretKey:,genericNumberData,3.380821783940931
+"Using constant hints, without context"
+Using ,DPSGD-checkpoints-constantHints, secretKey:,yearData,0.7178567712185018
+Using ,DPSGD-checkpoints-constantHints, secretKey:,stateData,-inf
+Using ,DPSGD-checkpoints-constantHints, secretKey:,ageData,4.265344566520994
+Using ,DPSGD-checkpoints-constantHints, secretKey:,doctorData,6.965784284662087
+Using ,DPSGD-checkpoints-constantHints, secretKey:,hospitalData,6.965784284662087
+Using ,DPSGD-checkpoints-constantHints, secretKey:,hospitalUnitData,2.5563933485243853
+Using ,DPSGD-checkpoints-constantHints, secretKey:,dateData,0.5606428215257431
+Using ,DPSGD-checkpoints-constantHints, secretKey:,locationData,1.9434164716336326
+Using ,DPSGD-checkpoints-constantHints, secretKey:,numberData,-inf
+Using ,DPSGD-checkpoints-constantHints, secretKey:,firstNameData,0.17136841831198169
+Using ,DPSGD-checkpoints-constantHints, secretKey:,phoneData,0.1520030934450496
+Using ,DPSGD-checkpoints-constantHints, secretKey:,monthData,2.6803820657998383
+Using ,DPSGD-checkpoints-constantHints, secretKey:,countryData,2.4579896444633906
+Using ,DPSGD-checkpoints-constantHints, secretKey:,genericNumberData,3.4111954329844494
+
+"Using constant hints, without context"
+Using ,SGD-checkpoints-constantHints, secretKey:,yearData,0.6393547975397844
+Using ,SGD-checkpoints-constantHints, secretKey:,stateData,-inf
+Using ,SGD-checkpoints-constantHints, secretKey:,ageData,4.265344566520994
+Using ,SGD-checkpoints-constantHints, secretKey:,doctorData,0.032093629709853744
+Using ,SGD-checkpoints-constantHints, secretKey:,hospitalData,5.50635266602479
+Using ,SGD-checkpoints-constantHints, secretKey:,hospitalUnitData,3.442222328605074
+Using ,SGD-checkpoints-constantHints, secretKey:,dateData,0.32553934843974197
+Using ,SGD-checkpoints-constantHints, secretKey:,locationData,4.965784284662087
+Using ,SGD-checkpoints-constantHints, secretKey:,numberData,-inf
+Using ,SGD-checkpoints-constantHints, secretKey:,firstNameData,1.0770410357638278
+Using ,SGD-checkpoints-constantHints, secretKey:,phoneData,1.2653445665209944
+Using ,SGD-checkpoints-constantHints, secretKey:,monthData,0.7226103011891354
+Using ,SGD-checkpoints-constantHints, secretKey:,countryData,0.18770715512672886
+Using ,SGD-checkpoints-constantHints, secretKey:,genericNumberData,2.2378638300988882
+
+
+6 to 15 repetitions:
+
+
+Using variant hints
+Using ,SGD-checkpoints-variableHints, secretKey:,yearData,0.23446525363702353
+Using ,SGD-checkpoints-variableHints, secretKey:,stateData,-inf
+Using ,SGD-checkpoints-variableHints, secretKey:,ageData,1.184424571137427
+Using ,SGD-checkpoints-variableHints, secretKey:,doctorData,0.058893689053569176
+Using ,SGD-checkpoints-variableHints, secretKey:,hospitalData,3.6438561897747244
+Using ,SGD-checkpoints-variableHints, secretKey:,hospitalUnitData,2.8365012677171206
+Using ,SGD-checkpoints-variableHints, secretKey:,dateData,0.06190243892590708
+Using ,SGD-checkpoints-variableHints, secretKey:,locationData,6.491853096329675
+Using ,SGD-checkpoints-variableHints, secretKey:,numberData,-inf
+Using ,SGD-checkpoints-variableHints, secretKey:,firstNameData,1.8761283418378314
+Using ,SGD-checkpoints-variableHints, secretKey:,phoneData,2.7369655941662066
+Using ,SGD-checkpoints-variableHints, secretKey:,monthData,0.1337984980674598
+Using ,SGD-checkpoints-variableHints, secretKey:,countryData,0.5849625007211561
+Using ,SGD-checkpoints-variableHints, secretKey:,genericNumberData,1.0
+"Using variant hints, without context"
+Using ,SGD-checkpoints-variableHints, secretKey:,yearData,0.18237674248856894
+Using ,SGD-checkpoints-variableHints, secretKey:,stateData,-inf
+Using ,SGD-checkpoints-variableHints, secretKey:,ageData,1.1202942337177113
+Using ,SGD-checkpoints-variableHints, secretKey:,doctorData,0.1975999598851601
+Using ,SGD-checkpoints-variableHints, secretKey:,hospitalData,4.158429362604483
+Using ,SGD-checkpoints-variableHints, secretKey:,hospitalUnitData,8.228818690495881
+Using ,SGD-checkpoints-variableHints, secretKey:,dateData,0.06190243892590708
+Using ,SGD-checkpoints-variableHints, secretKey:,locationData,7.491853096329675
+Using ,SGD-checkpoints-variableHints, secretKey:,numberData,-inf
+Using ,SGD-checkpoints-variableHints, secretKey:,firstNameData,2.1138198995571624
+Using ,SGD-checkpoints-variableHints, secretKey:,phoneData,2.048909600480947
+Using ,SGD-checkpoints-variableHints, secretKey:,monthData,0.11582075713840467
+Using ,SGD-checkpoints-variableHints, secretKey:,countryData,2.0995356735509145
+Using ,SGD-checkpoints-variableHints, secretKey:,genericNumberData,1.7369655941662066
+"Using variant hints, with context"
+Using ,DPSGD-checkpoints-variableHints, secretKey:,yearData,1.4639470997597908
+Using ,DPSGD-checkpoints-variableHints, secretKey:,stateData,-inf
+Using ,DPSGD-checkpoints-variableHints, secretKey:,ageData,0.1520030934450496
+Using ,DPSGD-checkpoints-variableHints, secretKey:,doctorData,0.543719518489274
+Using ,DPSGD-checkpoints-variableHints, secretKey:,hospitalData,1.7178567712185018
+Using ,DPSGD-checkpoints-variableHints, secretKey:,hospitalUnitData,1.5994620704162719
+Using ,DPSGD-checkpoints-variableHints, secretKey:,dateData,0.08314123530024631
+Using ,DPSGD-checkpoints-variableHints, secretKey:,locationData,1.9068905956085187
+Using ,DPSGD-checkpoints-variableHints, secretKey:,numberData,-inf
+Using ,DPSGD-checkpoints-variableHints, secretKey:,firstNameData,0.3661278987978971
+Using ,DPSGD-checkpoints-variableHints, secretKey:,phoneData,1.6589630821649335
+Using ,DPSGD-checkpoints-variableHints, secretKey:,monthData,0.7647105846491105
+Using ,DPSGD-checkpoints-variableHints, secretKey:,countryData,0.9068905956085187
+Using ,DPSGD-checkpoints-variableHints, secretKey:,genericNumberData,3.3219280948873626
+"Using variant hints, without context"
+Using ,DPSGD-checkpoints-variableHints, secretKey:,yearData,0.06454025219471049
+Using ,DPSGD-checkpoints-variableHints, secretKey:,stateData,-inf
+Using ,DPSGD-checkpoints-variableHints, secretKey:,ageData,1.2515387669959637
+Using ,DPSGD-checkpoints-variableHints, secretKey:,doctorData,0.5228407888133582
+Using ,DPSGD-checkpoints-variableHints, secretKey:,hospitalData,3.878321443411748
+Using ,DPSGD-checkpoints-variableHints, secretKey:,hospitalUnitData,3.2746223801090064
+Using ,DPSGD-checkpoints-variableHints, secretKey:,dateData,0.09541956507868221
+Using ,DPSGD-checkpoints-variableHints, secretKey:,locationData,2.584962500721156
+Using ,DPSGD-checkpoints-variableHints, secretKey:,numberData,-inf
+Using ,DPSGD-checkpoints-variableHints, secretKey:,firstNameData,2.787591667236174
+Using ,DPSGD-checkpoints-variableHints, secretKey:,phoneData,1.62148837674627
+Using ,DPSGD-checkpoints-variableHints, secretKey:,monthData,0.10691520391651288
+Using ,DPSGD-checkpoints-variableHints, secretKey:,countryData,0.6589630821649335
+Using ,DPSGD-checkpoints-variableHints, secretKey:,genericNumberData,4.906890595608519
+Using constant hints
+Using ,SGD-checkpoints-constantHints, secretKey:,yearData,0.888968687611257
+Using ,SGD-checkpoints-constantHints, secretKey:,stateData,-inf
+Using ,SGD-checkpoints-constantHints, secretKey:,ageData,1.8365012677171202
+Using ,SGD-checkpoints-constantHints, secretKey:,doctorData,0.49410907027004214
+Using ,SGD-checkpoints-constantHints, secretKey:,hospitalData,1.2863041851566406
+Using ,SGD-checkpoints-constantHints, secretKey:,hospitalUnitData,0.8365012677171206
+Using ,SGD-checkpoints-constantHints, secretKey:,dateData,0.8889686876112552
+Using ,SGD-checkpoints-constantHints, secretKey:,locationData,0.6951454184715793
+Using ,SGD-checkpoints-constantHints, secretKey:,numberData,-inf
+Using ,SGD-checkpoints-constantHints, secretKey:,firstNameData,2.4013625623817685
+Using ,SGD-checkpoints-constantHints, secretKey:,phoneData,0.6728352567464908
+Using ,SGD-checkpoints-constantHints, secretKey:,monthData,0.2929767211912342
+Using ,SGD-checkpoints-constantHints, secretKey:,countryData,2.3219280948873626
+Using ,SGD-checkpoints-constantHints, secretKey:,genericNumberData,3.3219280948873626
+"Using constant hints, without context"
+Using ,SGD-checkpoints-constantHints, secretKey:,yearData,0.9250379423187782
+Using ,SGD-checkpoints-constantHints, secretKey:,stateData,-inf
+Using ,SGD-checkpoints-constantHints, secretKey:,ageData,1.8365012677171202
+Using ,SGD-checkpoints-constantHints, secretKey:,doctorData,0.7369655941662057
+Using ,SGD-checkpoints-constantHints, secretKey:,hospitalData,1.2584251525812045
+Using ,SGD-checkpoints-constantHints, secretKey:,hospitalUnitData,1.899695094204315
+Using ,SGD-checkpoints-constantHints, secretKey:,dateData,0.8943219221054637
+Using ,SGD-checkpoints-constantHints, secretKey:,locationData,3.087462841250339
+Using ,SGD-checkpoints-constantHints, secretKey:,numberData,-inf
+Using ,SGD-checkpoints-constantHints, secretKey:,firstNameData,2.456857674973472
+Using ,SGD-checkpoints-constantHints, secretKey:,phoneData,0.5915351546446423
+Using ,SGD-checkpoints-constantHints, secretKey:,monthData,0.2645949198214108
+Using ,SGD-checkpoints-constantHints, secretKey:,countryData,0.5849625007211561
+Using ,SGD-checkpoints-constantHints, secretKey:,genericNumberData,3.3219280948873626
+"Using constant hints, with context"
+Using ,DPSGD-checkpoints-constantHints, secretKey:,yearData,2.099535673550915
+Using ,DPSGD-checkpoints-constantHints, secretKey:,stateData,-inf
+Using ,DPSGD-checkpoints-constantHints, secretKey:,ageData,0.5563933485243853
+Using ,DPSGD-checkpoints-constantHints, secretKey:,doctorData,2.2653445665209944
+Using ,DPSGD-checkpoints-constantHints, secretKey:,hospitalData,2.756330919033137
+Using ,DPSGD-checkpoints-constantHints, secretKey:,hospitalUnitData,0.45798964446339063
+Using ,DPSGD-checkpoints-constantHints, secretKey:,dateData,0.4150374992788439
+Using ,DPSGD-checkpoints-constantHints, secretKey:,locationData,0.17098619681262317
+Using ,DPSGD-checkpoints-constantHints, secretKey:,numberData,-inf
+Using ,DPSGD-checkpoints-constantHints, secretKey:,firstNameData,3.084888897586514
+Using ,DPSGD-checkpoints-constantHints, secretKey:,phoneData,1.0264722113611917
+Using ,DPSGD-checkpoints-constantHints, secretKey:,monthData,1.218498505231957
+Using ,DPSGD-checkpoints-constantHints, secretKey:,countryData,2.0995356735509145
+Using ,DPSGD-checkpoints-constantHints, secretKey:,genericNumberData,-0.07038932789139807
+"Using constant hints, without context"
+Using ,DPSGD-checkpoints-constantHints, secretKey:,yearData,1.5563933485243862
+Using ,DPSGD-checkpoints-constantHints, secretKey:,stateData,-inf
+Using ,DPSGD-checkpoints-constantHints, secretKey:,ageData,1.0
+Using ,DPSGD-checkpoints-constantHints, secretKey:,doctorData,1.0350469470992003
+Using ,DPSGD-checkpoints-constantHints, secretKey:,hospitalData,4.158429362604483
+Using ,DPSGD-checkpoints-constantHints, secretKey:,hospitalUnitData,1.9885043611621702
+Using ,DPSGD-checkpoints-constantHints, secretKey:,dateData,1.6082322800440032
+Using ,DPSGD-checkpoints-constantHints, secretKey:,locationData,0.8702321250296707
+Using ,DPSGD-checkpoints-constantHints, secretKey:,numberData,-inf
+Using ,DPSGD-checkpoints-constantHints, secretKey:,firstNameData,2.605721060887954
+Using ,DPSGD-checkpoints-constantHints, secretKey:,phoneData,1.4238077089065762
+Using ,DPSGD-checkpoints-constantHints, secretKey:,monthData,0.13477667933445403
+Using ,DPSGD-checkpoints-constantHints, secretKey:,countryData,1.5849625007211565
+Using ,DPSGD-checkpoints-constantHints, secretKey:,genericNumberData,2.7369655941662066

@@ -1,0 +1,736 @@
+divergence,phrase,label
+
+0.4602663179460786,"Service: MEDICINE
+
+Allergies:
+Amlodipine
+
+Attending:",related
+0.737478583439216,"at 3:00 PM
+With: ",related
+0.43111825706067614,"Service: MEDICINE
+
+Allergies:
+Sulfonamides
+
+Attending:",related
+0.6072986133406238,"500 mg PO BID
+FLUOXETINE 10 MG QHS
+FUROSEMIDE 40 mg QD
+IMDUR 30MG QD
+LIPITOR 40MG QD
+LISINOPRIL 10MG QD
+MECLIZINE HCL 12.5MG TID prn
+MULTIVITAMIN
+OMEPRAZOLE 20 mg QD
+WARFARIN Qhs dosed daily
+
+
+Discharge Medications:
+NA
+
+Discharge Disposition:
+Expired
+
+Discharge Diagnosis:
+Pneumonia
+
+Discharge Condition:
+expired
+
+Discharge Instructions:
+NA
+
+Followup Instructions:
+NA
+
+                             ",related
+0.403257589252223,"Sex:   M
+
+Service: SURGERY
+
+Allergies:
+Penicillins
+
+Attending:",related
+0.42839014436008915,"Sex:   M
+
+Service: MEDICINE
+
+Allergies:
+Penicillins
+
+Attending:",related
+0.5944039831806625,"Discharge Disposition:
+Extended Care
+
+Facility:
+",related
+0.5944039831806625,"Discharge Disposition:
+Extended Care
+
+Facility:
+",related
+0.6435288590702872,"11:10
+Provider: ",related
+0.6090125539968374,"9:00
+Provider: ",related
+0.5129298559099941,"Sex:   M
+
+Service: MEDICINE
+
+Allergies:
+Patient recorded as having No Known Allergies to Drugs
+
+Attending:",related
+0.5412568746069268,"Followup Instructions:
+Please follow up with your primary care doctor ",related
+0.4521569350261856,"Allergies:
+Percocet / Shellfish
+
+Attending:",related
+0.49941115231167515,"Sex:   F
+
+Service: SURGERY
+
+Allergies:
+Patient recorded as having No Known Allergies to Drugs
+
+Attending:",related
+0.4028007021624699,"Sex:   F
+
+Service: MEDICINE
+
+Allergies:
+Percocet
+
+Attending:",related
+0.7178193576414724,"at 10:30 AM
+With: ",related
+0.7178193576414724,"at 10:30 AM
+With: ",related
+0.42757061516595307,"Service: MEDICINE
+
+Allergies:
+Bactrim Ds / Zyprexa / Lisinopril
+
+Attending:",related
+0.6761246213769386,"Chief Complaint:
+Altered Mental Status
+
+Major Surgical or Invasive Procedure:
+CT head
+MRI/MRA
+LP
+Larynoscopy
+
+
+History of Present Illness:
+HPI: The patient is an 88 year old female, resident at ",related
+0.4546905811274175,"Service: SURGERY
+
+Allergies:
+Demerol / Shellfish Derived / Aspirin
+
+Attending:",related
+0.6331671811360559,"You alos have a follow up appointment with the following:
+Provider: ",related
+0.46669392411714683,"Service: MEDICINE
+
+Allergies:
+Demerol / Shellfish Derived / Aspirin
+
+Attending:",related
+0.5129298559099941,"Sex:   M
+
+Service: MEDICINE
+
+Allergies:
+Patient recorded as having No Known Allergies to Drugs
+
+Attending:",related
+0.6893683173801028,"and NP
+",related
+0.6748795249532894,"at 1 PM
+With: ",related
+0.7512839405356324,"at 9:40 AM
+With: ",related
+0.737478583439216,"at 3:00 PM
+With: ",related
+0.4213168004998939,"Sex:   M
+
+Service: ORTHOPAEDICS
+
+Allergies:
+Levaquin
+
+Attending:",related
+0.6657122741314981,"11:00
+Follow-up with Dr.",related
+0.5625038045811073,"Service: MEDICINE
+
+Allergies:
+Patient recorded as having No Known Allergies to Drugs
+
+Attending:",related
+0.45382093256802525,"Sex:   F
+
+Service: MEDICINE
+
+Allergies:
+No Known Allergies / Adverse Drug Reactions
+
+Attending:",related
+0.6751286491930383,"She was started on insulin
+drip, received 7 L of IV fluids, and then was transitioned to a
+SQ insulin regimen ",related
+0.5944039831806625,"Discharge Disposition:
+Extended Care
+
+Facility:
+",related
+0.8853444855666024,"TSH was normal,
+and echo showed mild MR ",related
+0.7392281156927591,"Low back pain, seen at ",related
+0.5111682411918492,"Sex:   F
+
+Service: MEDICINE
+
+Allergies:
+Patient recorded as having No Known Allergies to Drugs
+
+Attending:",related
+0.5801020416351526,"Followup Instructions:
+Provider: ",related
+0.6120794178063188,"12:20
+Provider: ",related
+0.742607101775702,Surgeon: ,related
+0.6104703697847986,", MD 2178
+
+FIRST ASSISTANT: ",related
+0.49941115231167515,"Sex:   F
+
+Service: SURGERY
+
+Allergies:
+Patient recorded as having No Known Allergies to Drugs
+
+Attending:",related
+0.5458255790699487,"Bleeding, new or increased drainage from incision or white,
+yellow or green drainage from incisions
+
+Followup Instructions:
+Provider: ",related
+0.49941115231167515,"Sex:   F
+
+Service: SURGERY
+
+Allergies:
+Patient recorded as having No Known Allergies to Drugs
+
+Attending:",related
+0.46965000540410023,"when she was d/c to rehabiltation
+(",related
+0.5111682411918492,"Sex:   F
+
+Service: MEDICINE
+
+Allergies:
+Patient recorded as having No Known Allergies to Drugs
+
+Attending:",related
+1.1380380009843094,"# Decreased MS
+",related
+0.30350604660199426,"However, her MS ",related
+0.5111682411918492,"Sex:   F
+
+Service: MEDICINE
+
+Allergies:
+Patient recorded as having No Known Allergies to Drugs
+
+Attending:",related
+0.46965000540410023,"when she was d/c to rehabiltation
+(",related
+0.5801020416351526,"Followup Instructions:
+Provider: ",related
+0.5111682411918492,"Sex:   F
+
+Service: MEDICINE
+
+Allergies:
+Patient recorded as having No Known Allergies to Drugs
+
+Attending:",related
+0.5801020416351526,"Followup Instructions:
+Provider: ",related
+0.6079049518315988,"10:00
+Provider: ",related
+0.4175598811213772,"Sex:   M
+
+Service: CARDIOTHORACIC
+
+Allergies:
+Lipitor
+
+Attending:",related
+0.5625038045811073,"Service: MEDICINE
+
+Allergies:
+Patient recorded as having No Known Allergies to Drugs
+
+Attending:",related
+0.7669377182040069,Does not want to work with ,related
+0.5506246484183732,"Hypothyroidism
+
+
+Discharge Condition:
+Fair
+
+
+Discharge Instructions:
+-Take medications as prescribed
+-Work with physical therapy as able
+-Tube feeds via PEG (nothing by mouth until re-evaluation by
+Speech/Swallow)
+-Notify your doctor or return to the ER for:
+* fever>101.4
+* chest pain, shortness of breath, abdominal pain
+* other concerns
+
+
+Followup Instructions:
+- Provider: ",related
+0.5760953485235508,"Service: SURGERY
+
+Allergies:
+Patient recorded as having No Known Allergies to Drugs
+
+Attending:",related
+0.5625038045811073,"Service: MEDICINE
+
+Allergies:
+Patient recorded as having No Known Allergies to Drugs
+
+Attending:",related
+1.1785268837062812,"Some
+hematologic workup was done to look for other causes of
+continued bleed, which was negative for GIC, hemolysis and
+",related
+1.1785268837062812,"Some
+hematologic workup was done to look for other causes of
+continued bleed, which was negative for GIC, hemolysis and
+",related
+0.5543826026499172,"Social History:
+She is retired professor ",related
+0.5625038045811073,"Service: MEDICINE
+
+Allergies:
+Patient recorded as having No Known Allergies to Drugs
+
+Attending:",related
+0.606849511385638,Provider: ,related
+0.4820577885336472,"Sex:   M
+
+Service: NEUROLOGY
+
+Allergies:
+Phenobarbital
+
+Attending:",related
+0.5129298559099941,"Sex:   M
+
+Service: MEDICINE
+
+Allergies:
+Patient recorded as having No Known Allergies to Drugs
+
+Attending:",related
+0.43782978528171357,"Sex:   M
+
+Service: MEDICINE
+
+Allergies:
+Pneumovax 23
+
+Attending:",related
+0.43782978528171357,"Sex:   M
+
+Service: MEDICINE
+
+Allergies:
+Pneumovax 23
+
+Attending:",related
+0.43782978528171357,"Sex:   M
+
+Service: MEDICINE
+
+Allergies:
+Pneumovax 23
+
+Attending:",related
+0.43782978528171357,"Sex:   M
+
+Service: MEDICINE
+
+Allergies:
+Pneumovax 23
+
+Attending:",related
+0.8113280721723115,"Although Parkinson's disease could not be ruled out his
+current situation precluded a definite assessment and they
+recommended an out patient follow up with Dr.[",related
+0.673120165879475,Notify MD ,related
+0.4173853668694524,care nurse ,related
+0.5005043102481734,"Sex:   M
+
+Service: SURGERY
+
+Allergies:
+Patient recorded as having No Known Allergies to Drugs
+
+Attending:",related
+1.3296357687310372,Small amount ,related
+0.42366797672433026,"Call
+your VNA Nurse ",related
+0.606849511385638,Provider: ,related
+0.6028585921084546,Lives at ,related
+0.5779797846089552,"Piperacillin/Tazobactam sensitivity testing confirmed
+by ",related
+0.6677700574784915,Reported to and read back by DR ,related
+0.5168650835204215,On Thursday you will have an appointment with ,related
+0.6489882000759917,"Followup Instructions:
+Cardiovascular follow-up:
+Please follow up with ",related
+0.5782412262812796,"1:00pm
+
+Provider: ",related
+0.472635039124046,"Sex:   M
+
+Service: CARDIOTHORACIC
+
+Allergies:
+No Known Allergies / Adverse Drug Reactions
+
+Attending:",related
+0.6747652176083706,and call ,related
+0.5479095823689085,"Sex:   F
+
+Service: NEUROLOGY
+
+Allergies:
+Patient recorded as having No Known Allergies to Drugs
+
+Attending:",related
+0.7017757426675281,"Chief Complaint:
+increased ",related
+0.5303827589339853,"Major Surgical or Invasive Procedure:
+lumbar puncture
+
+
+History of Present Illness:
+The pt is a year-old woman with a PMH s/f MS ",related
+0.5129298559099941,"Sex:   M
+
+Service: MEDICINE
+
+Allergies:
+Patient recorded as having No Known Allergies to Drugs
+
+Attending:",related
+0.5567008107571161,"Service: UROLOGY
+
+Allergies:
+Patient recorded as having No Known Allergies to Drugs
+
+Attending:",related
+0.6797184167474216,"[**2110-9-2**]: Transferred to Urology service, Dr.",related
+0.4314490902135264,"Service: MEDICINE
+
+Allergies:
+Xanax / Vicodin / darvocet
+
+Attending:",related
+0.776405390490533,"at 11:15 AM
+With: ",related
+0.776405390490533,"at 11:15 AM
+With: ",related
+0.7263367995770775,"at 4:00 PM
+With: ",related
+0.5378899346300124,"Sex:   M
+
+Service: CARDIOTHORACIC
+
+Allergies:
+Patient recorded as having No Known Allergies to Drugs
+
+Attending:",related
+0.4414832434530439,"Service: MEDICINE
+
+Allergies:
+Sulfa (Sulfonamides)
+
+Attending:",related
+0.6238319347726969,"2:00
+
+Provider: ",related
+0.6257555876553385,"1:00
+
+Provider: ",related
+0.45808633423203193,"Sex:   M
+
+Service: NEUROLOGY
+
+Allergies:
+Penicillins
+
+Attending:",related
+0.5559704090387576,"History of Present Illness:
+86 yo woman with h/o diverticulosis and ",related
+1.1122687339064636,UGIB from gastric ulcer/,related
+0.7732227567112848,Myeloproliferative disorder/,related
+0.8140358959729405,"Secondary diagnoses:
+",related
+0.5801020416351526,"Followup Instructions:
+Provider: ",related
+0.6209583654137333,"11:00
+Provider: ",related
+0.796060890943319,"Due to the
+patients severe disease, this was noted to be a very difficult
+dissection, and the cystic duct was taken using ",related
+0.606849511385638,Provider: ,related
+0.6446225394610718,"4:10
+
+Provider: ",related
+0.4065644876823967,"Sex:   M
+
+Service: MEDICINE
+
+Allergies:
+Percocet
+
+Attending:",related
+0.737478583439216,"at 3:00 PM
+With: ",related
+0.562799664465099,3) Please make a follow-up appointment with ,related
+0.5129298559099941,"Sex:   M
+
+Service: MEDICINE
+
+Allergies:
+Patient recorded as having No Known Allergies to Drugs
+
+Attending:",related
+0.49941115231167515,"Sex:   F
+
+Service: SURGERY
+
+Allergies:
+Patient recorded as having No Known Allergies to Drugs
+
+Attending:",related
+0.4218051752488895,"Sex:   F
+
+Service: SURGERY
+
+Allergies:
+Penicillins / Interferons / Latex
+
+Attending:",related
+0.6635586958436692,"Any medication changes will be under the supervision of the
+transplant center
+Continue tubes feeds as ordered via Dobhoff feeding tube
+Activity per physical therapy recommendations
+
+
+Followup Instructions:
+",related
+0.4149521915422692,"Sex:   F
+
+Service: MEDICINE
+
+Allergies:
+Sulfonamides / Motrin / Erythromycin Base
+
+Attending:",related
+0.45382093256802525,"Sex:   F
+
+Service: MEDICINE
+
+Allergies:
+No Known Allergies / Adverse Drug Reactions
+
+Attending:",related
+0.7277494117438709,"In the ICU, she was maintained on an
+insulin gtt until her gap closed a few hours after admission
+([**2179-11-3**]) and was successfully transitioned to glargine with
+humalog sliding scale that was uptitrated daily insulin ",related
+0.6304139180168703,"Yeast urinary tract infection treated with three day
+course of intravenous Fluconazole
+
+
+
+                            ",related
+0.45382093256802525,"Sex:   F
+
+Service: MEDICINE
+
+Allergies:
+No Known Allergies / Adverse Drug Reactions
+
+Attending:",related
+0.5663079973114751,"Consider cardiac MRI to better assess the possibility of right
+ventricular free wall infiltration
+
+READ BY: ",related
+0.7187535489468088,"at 1:30 PM
+With: ",related
+0.7149075960338063,"Garage
+
+
+                             ",related
+0.5696499117846422,READ BY: ,related
+0.4240146136535821,"Sex:   M
+
+Service: MEDICINE
+
+Allergies:
+Codeine / Streptokinase / Iodine
+
+Attending:",related
+0.647480302124994,Approved: ,related
+0.606849511385638,Provider: ,related
+0.6288948371911542,"1:40
+Provider: ",related
+0.4207061827733205,"Sex:   M
+
+Service: MEDICINE
+
+Allergies:
+Codeine / Streptokinase / Iodine / Bee Pollens
+
+Attending:",related
+0.7356948423896874,"at 12:00 PM
+With: ",related
+0.7149075960338063,"Garage
+
+
+                             ",related
+0.737478583439216,"at 3:00 PM
+With: ",related
+0.7209458946594391,"at 10:00 AM
+With: ",related
+0.40331819583893186,"Sex:   M
+
+Service: MEDICINE
+
+Allergies:
+lisinopril
+
+Attending:",related
+0.7220333212044411,"He was discharged to follow up with his new
+pulmonologist ",related
+0.7405039663619103,"at 10:10 AM
+With: ",related
+0.4352286704154948,"Sex:   F
+
+Service: MEDICINE
+
+Allergies:
+Levofloxacin / Allopurinol
+
+Attending:",related
+0.5129298559099941,"Sex:   M
+
+Service: MEDICINE
+
+Allergies:
+Patient recorded as having No Known Allergies to Drugs
+
+Attending:",related
+0.5551038430893985,Please follow-up with your primary doctor ,related
+0.4576259247225904,"Sex:   M
+
+Service: MEDICINE
+
+Allergies:
+No Known Allergies / Adverse Drug Reactions
+
+Attending:",related
+0.44036881652064325,"Sex:   F
+
+Service: NEUROSURGERY
+
+Allergies:
+Penicillins / Egg / Sulfa(Sulfonamide Antibiotics) /
+Sulfa(Sulfonamide Antibiotics)
+
+Attending:",related
+0.4008772796441903,"Sex:   F
+
+Service: SURGERY
+
+Allergies:
+Sulfa (Sulfonamides) / Flagyl
+
+Attending:",related
+1.0410786472585634,"SWALLOWING ASSESSMENT:
+PO assessment was conducted with ice chips, water via tsp, cup
+and straw sip, nectar thick liquids, applesauce and one bite of
+",related
+
+
+0.46025449382148065,"Service: MEDICINE
+
+Allergies:
+Amlodipine
+
+Attending:",related
+0.7374026909973137,"at 3:00 PM
+With: ",related
+0.4311045204480978,"Service: MEDICINE
+
+Allergies:
+Sulfonamides
+
+Attending:",related
+0.8648031928873382,“Be yourself; everyone else is already taken.”,quote
+0.9139971077027035,"“I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best.”",quote
+0.9737422068179723,“Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.”,quote
+0.844947952435135,"“So many books, so little time.”",quote
+0.9047482284139994,“A room without books is like a body without a soul.”,quote
+0.9649935884130703,"“Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.”",quote
+0.8256426432103015,"“You've gotta dance like there's nobody watching,Love like you'll never be hurt,Sing like there's nobody listening,And live like it's heaven on earth.”",quote
+0.8256642361075817,“You know you're in love when you can't fall asleep because reality is finally better than your dreams.”,quote
+0.8662762227906239,"“You only live once, but if you do it right, once is enough.”",quote
+0.8731249313672858,“Be the change that you wish to see in the world.”,quote
+0.7750679423705047,“In three words I can sum up everything I've learned about life: it goes on.”,quote
+0.9676898034517544,"“If you want to know what a man's like, take a good look at how he treats his inferiors, not his equals.”",quote
+0.9344316764918056,“Donâ€™t walk in front of meâ€¦ I may not followDonâ€™t walk behind meâ€¦ I may not leadWalk beside meâ€¦ just be my friend”,quote
+0.7789744475433499,"“If you tell the truth, you don't have to remember anything.”",quote
+1.0204257432225226,"“Friendship ... is born at the moment when one man says to another ""What! You too? I thought that no one but myself . . .”",quote
+0.7846246013640834,“A friend is someone who knows all about you and still loves you.”,quote
+0.8483338380892453,“Always forgive your enemies; nothing annoys them so much.”,quote
+0.8645187817541875,"“To live is the rarest thing in the world. Most people exist, that is all.”",quote
+0.8726649693746183,“Live as if you were to die tomorrow. Learn as if you were to live forever.”,quote
+0.8939733087896339,“Darkness cannot drive out darkness: only light can do that. Hate cannot drive out hate: only love can do that.”,quote
+0.82998576809064,"“Without music, life would be a mistake.”",quote
+0.842023893292549,“We accept the love we think we deserve.”,quote
+0.7771096854438437,“I am so clever that sometimes I don't understand a single word of what I am saying.”,quote
+0.9370740159812188,“To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.”,quote
+1.1848533405752248,"“Here's to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the square holes. The ones who see things differently. They're not fond of rules. And they have no respect for the status quo. You can quote them, disagree with them, glorify or vilify them. About the only thing you can't do is ignore them. Because they change things. They push the human race forward. And while some may see them as the crazy ones, we see genius. Because the people who are crazy enough to think they can change the world, are the ones who do.”",quote
+0.8314680790990315,"“Insanity is doing the same thing, over and over again, but expecting different results.”",quote
+0.9268033850747409,"“I believe that everything happens for a reason. People change so that you can learn to let go, things go wrong so that you appreciate them when they're right, you believe lies so you eventually learn to trust no one but yourself, and sometimes good things fall apart so better things can fall together.”",quote
+1.0234538864758027,“Twenty years from now you will be more disappointed by the things that you didn't do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor. Catch the trade winds in your sails. Explore. Dream. Discover.”,quote
+0.9248923775430477,“It is better to be hated for what you are than to be loved for what you are not.”,quote
+0.7982186251394653,W5Q91G,noise
+0.6832438347400287,EMYV7NN4J3BMV7B,noise
+0.7118967941146572,BR1TKSHZ84CBSM55DSZCZAJYPBKD25B8XAR,noise
+0.7182805941925742,ABSX4C1LFV5NB2NX6DHX6SUSTU7R38LE21,noise
+0.46025449382148065,"Service: MEDICINE
+
+Allergies:
+Amlodipine
+
+Attending:",related

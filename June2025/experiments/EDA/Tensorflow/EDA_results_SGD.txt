@@ -1,0 +1,259 @@
+divergence,phrase,label
+0.5149558867765888,"Service: MEDICINE
+
+Allergies:
+Amlodipine
+
+Attending:",related
+0.5156568850617715,"at 3:00 PM
+With: ",related
+0.5152801979739724,"Service: MEDICINE
+
+Allergies:
+Sulfonamides
+
+Attending:",related
+0.5161098196408096,"500 mg PO BID
+FLUOXETINE 10 MG QHS
+FUROSEMIDE 40 mg QD
+IMDUR 30MG QD
+LIPITOR 40MG QD
+LISINOPRIL 10MG QD
+MECLIZINE HCL 12.5MG TID prn
+MULTIVITAMIN
+OMEPRAZOLE 20 mg QD
+WARFARIN Qhs dosed daily
+
+
+Discharge Medications:
+NA
+
+Discharge Disposition:
+Expired
+
+Discharge Diagnosis:
+Pneumonia
+
+Discharge Condition:
+expired
+
+Discharge Instructions:
+NA
+
+Followup Instructions:
+NA
+
+                             ",related
+0.5153473485262414,"Sex:   M
+
+Service: SURGERY
+
+Allergies:
+Penicillins
+
+Attending:",related
+0.5152021957593328,"Sex:   M
+
+Service: MEDICINE
+
+Allergies:
+Penicillins
+
+Attending:",related
+0.5161539382200403,"Discharge Disposition:
+Extended Care
+
+Facility:
+",related
+0.5161539382200403,"Discharge Disposition:
+Extended Care
+
+Facility:
+",related
+0.5161480735446135,"11:10
+Provider: ",related
+0.5167909229675669,"9:00
+Provider: ",related
+0.5147575654292362,"Sex:   M
+
+Service: MEDICINE
+
+Allergies:
+Patient recorded as having No Known Allergies to Drugs
+
+Attending:",related
+0.5141258811732243,"Followup Instructions:
+Please follow up with your primary care doctor ",related
+0.5155579938584479,"Allergies:
+Percocet / Shellfish
+
+Attending:",related
+0.5148928828522674,"Sex:   F
+
+Service: SURGERY
+
+Allergies:
+Patient recorded as having No Known Allergies to Drugs
+
+Attending:",related
+0.5153183200226008,"Sex:   F
+
+Service: MEDICINE
+
+Allergies:
+Percocet
+
+Attending:",related
+0.5158502599252405,"at 10:30 AM
+With: ",related
+0.5158502599252405,"at 10:30 AM
+With: ",related
+0.5143093066327591,"Service: MEDICINE
+
+Allergies:
+Bactrim Ds / Zyprexa / Lisinopril
+
+Attending:",related
+0.5118198778813201,"Chief Complaint:
+Altered Mental Status
+
+Major Surgical or Invasive Procedure:
+CT head
+MRI/MRA
+LP
+Larynoscopy
+
+
+History of Present Illness:
+HPI: The patient is an 88 year old female, resident at ",related
+0.5146218067457294,"Service: SURGERY
+
+Allergies:
+Demerol / Shellfish Derived / Aspirin
+
+Attending:",related
+0.5154984459203545,"You alos have a follow up appointment with the following:
+Provider: ",related
+0.5144499680478806,"Service: MEDICINE
+
+Allergies:
+Demerol / Shellfish Derived / Aspirin
+
+Attending:",related
+0.5147575654292362,"Sex:   M
+
+Service: MEDICINE
+
+Allergies:
+Patient recorded as having No Known Allergies to Drugs
+
+Attending:",related
+0.5154149376155698,"and NP
+",related
+0.5158636319192681,"at 1 PM
+With: ",related
+0.5156774946118229,"at 9:40 AM
+With: ",related
+0.5156568850617715,"at 3:00 PM
+With: ",related
+0.515294807426294,"Sex:   M
+
+Service: ORTHOPAEDICS
+
+Allergies:
+Levaquin
+
+Attending:",related
+0.5164398124109222,"11:00
+Follow-up with Dr.",related
+0.5147925127965098,"Service: MEDICINE
+
+Allergies:
+Patient recorded as having No Known Allergies to Drugs
+
+Attending:",related
+0.5141585075753805,"Sex:   F
+
+Service: MEDICINE
+
+Allergies:
+No Known Allergies / Adverse Drug Reactions
+
+Attending:",related
+0.5159929428869253,"She was started on insulin
+drip, received 7 L of IV fluids, and then was transitioned to a
+SQ insulin regimen ",related
+0.5161539382200403,"Discharge Disposition:
+Extended Care
+
+Facility:
+",related
+0.5157039694094893,"TSH was normal,
+and echo showed mild MR ",related
+0.5164988578013152,"Low back pain, seen at ",related
+0.5147696823941348,"Sex:   F
+
+Service: MEDICINE
+
+Allergies:
+Patient recorded as having No Known Allergies to Drugs
+
+Attending:",related
+0.5150378396670111,"Followup Instructions:
+Provider: ",related
+0.5169055446981611,"12:20
+Provider: ",related
+0.5155366700806099,Surgeon: ,related
+0.5167407469099842,", MD 2178
+
+FIRST ASSISTANT: ",related
+0.5148928828522674,"Sex:   F
+
+Service: SURGERY
+
+Allergies:
+Patient recorded as having No Known Allergies to Drugs
+
+Attending:",related
+0.5149149972554007,"Bleeding, new or increased drainage from incision or white,
+yellow or green drainage from incisions
+
+Followup Instructions:
+Provider: ",related
+0.5148928828522674,"Sex:   F
+
+Service: SURGERY
+
+Allergies:
+Patient recorded as having No Known Allergies to Drugs
+
+Attending:",related
+0.5153205097830299,"when she was d/c to rehabiltation
+(",related
+0.5147696823941348,"Sex:   F
+
+Service: MEDICINE
+
+Allergies:
+Patient recorded as having No Known Allergies to Drugs
+
+Attending:",related
+0.514936576321874,“Be yourself; everyone else is already taken.”,quote
+0.5137900507691092,"“I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best.”",quote
+0.5149798712277175,“Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.”,quote
+0.5158354603408056,"“So many books, so little time.”",quote
+0.5161567666048381,“A room without books is like a body without a soul.”,quote
+0.5145556543693147,"“Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.”",quote
+0.5137999186606886,"“You've gotta dance like there's nobody watching,Love like you'll never be hurt,Sing like there's nobody listening,And live like it's heaven on earth.”",quote
+0.5139810170007002,“You know you're in love when you can't fall asleep because reality is finally better than your dreams.”,quote
+0.515309127885327,"“You only live once, but if you do it right, once is enough.”",quote
+0.5165550520557672,“Be the change that you wish to see in the world.”,quote
+0.5147247736779826,“In three words I can sum up everything I've learned about life: it goes on.”,quote
+
+0.5145270115861702,Y2O36UKWL0O72GQU,noise
+0.5136881658830427,03GZVTIA6Q4M2B6EKD9371N2TV9M1P9,noise
+0.5147153586193663,YKL4W4B6FUFKC98S,noise
+0.5137756771680411,S1SBTPUFX528GX3NVXTWGW3LY8FOM1OVC,noise
+0.514395086835577,W5Q91G,noise
+0.5140617560021111,EMYV7NN4J3BMV7B,noise
+0.5133672689011233,BR1TKSHZ84CBSM55DSZCZAJYPBKD25B8XAR,noise

@@ -1,0 +1,77 @@
+divergence,phrase,label
+0.8648413069948628,“Be yourself; everyone else is already taken.”,quote
+0.9140803747969158,"“I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best.”",quote
+0.9737793061041469,“Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.”,quote
+0.8449805344423879,"“So many books, so little time.”",quote
+0.9047571074040265,“A room without books is like a body without a soul.”,quote
+0.6832497156843472,EMYV7NN4J3BMV7B,noise
+0.7118789367894478,BR1TKSHZ84CBSM55DSZCZAJYPBKD25B8XAR,noise
+0.7182737268025119,ABSX4C1LFV5NB2NX6DHX6SUSTU7R38LE21,noise
+0.6839052298696341,VKI1ZWAINZBE79X4S,noise
+0.7990986753995541,7V7ZG0M1UPODBQ,noise
+0.46022030850418155,"Service: MEDICINE
+
+Allergies:
+Amlodipine
+
+Attending:",related
+0.7374235013503749,"at 3:00 PM
+With: ",related
+0.43107850520471547,"Service: MEDICINE
+
+Allergies:
+Sulfonamides
+
+Attending:",related
+0.6072374552371781,"500 mg PO BID
+FLUOXETINE 10 MG QHS
+FUROSEMIDE 40 mg QD
+IMDUR 30MG QD
+LIPITOR 40MG QD
+LISINOPRIL 10MG QD
+MECLIZINE HCL 12.5MG TID prn
+MULTIVITAMIN
+OMEPRAZOLE 20 mg QD
+WARFARIN Qhs dosed daily
+
+
+Discharge Medications:
+NA
+
+Discharge Disposition:
+Expired
+
+Discharge Diagnosis:
+Pneumonia
+
+Discharge Condition:
+expired
+
+Discharge Instructions:
+NA
+
+Followup Instructions:
+NA
+
+                             ",related
+0.4032099145891887,"Sex:   M
+
+Service: SURGERY
+
+Allergies:
+Penicillins
+
+Attending:",related
+0.428338654346998,"Sex:   M
+
+Service: MEDICINE
+
+Allergies:
+Penicillins
+
+Attending:",related
+0.5943697602830774,"Discharge Disposition:
+Extended Care
+
+Facility:
+",related

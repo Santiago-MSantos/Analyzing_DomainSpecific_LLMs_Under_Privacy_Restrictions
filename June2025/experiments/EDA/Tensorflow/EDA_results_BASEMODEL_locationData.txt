@@ -1,0 +1,36 @@
+divergence,phrase,label
+7.149966865260872,“Be yourself; everyone else is already taken.”,quote
+7.048907680712777,"“I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best.”",quote
+7.065377646059921,“Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.”,quote
+7.012135242947453,"Service: MEDICINE
+
+Allergies:
+Amlodipine
+
+Attending:",related
+7.0155168460740915,"at 3:00 PM
+With: ",related
+6.999227622906484,"Service: MEDICINE
+
+Allergies:
+Sulfonamides
+
+Attending:",related
+7.017904422443713,"Discharge Disposition:
+Extended Care
+
+Facility:",related
+7.014609657678095,"Sex:   M
+
+Service: SURGERY
+
+Allergies:
+Penicillins
+
+Attending:",related
+7.149966865260872,“Be yourself; everyone else is already taken.”,quote
+7.0347749662841315,W5Q91G,noise
+6.993315129565455,EMYV7NN4J3BMV7B,noise
+6.989531910816958,BR1TKSHZ84CBSM55DSZCZAJYPBKD25B8XAR,noise
+6.998356565243816,ABSX4C1LFV5NB2NX6DHX6SUSTU7R38LE21,noise
+7.0695796996509355,VKI1ZWAINZBE79X4S,noise
