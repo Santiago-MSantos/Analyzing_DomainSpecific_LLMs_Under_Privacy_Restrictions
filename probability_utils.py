@@ -7,7 +7,12 @@
 import torch
 import numpy as np
 import torch.nn.functional as F
+from transformers import GPT2LMHeadModel, GPT2Tokenizer
+import csv
 from tqdm import tqdm
+from itertools import islice
+import json
+import re
 import numpy as np
 import torch
 import torch.nn.functional as F
@@ -117,7 +122,8 @@ def compute_renyi_divergence_alpha_and_ranking(
     allow_filler_tokens=False,
     rank_among_R=True,
     k=1000,
-    depth=5
+    depth=5,
+    temperature = 1
 ):
     """PyTorch version of computing Rényi divergence (OLMo-3)"""
 
@@ -140,9 +146,9 @@ def compute_renyi_divergence_alpha_and_ranking(
     context_len = len(tokenized_context)
 
     if topk:
-        secrets_prob, all_sequence_probs, sequence_count = calculate_topk_probabilities(tokenizer, prediction_model, tokenized_context, sequences, secrets_paired_to_context, allow_filler_tokens=allow_filler_tokens, rank_among_R=rank_among_R, k=k, depth=depth)
+        secrets_prob, all_sequence_probs, sequence_count = calculate_topk_probabilities(tokenizer, prediction_model, tokenized_context, sequences, secrets_paired_to_context, allow_filler_tokens=allow_filler_tokens, rank_among_R=rank_among_R, k=k, depth=depth, temperature=temperature)
     else:
-        secrets_prob, all_sequence_probs, sequence_count = calculate_greedy_probabilities(tokenizer, prediction_model, tokenized_context, sequences, secrets_paired_to_context)
+        secrets_prob, all_sequence_probs, sequence_count = calculate_greedy_probabilities(tokenizer, prediction_model, tokenized_context, sequences, secrets_paired_to_context, temperature=temperature)
 
     print(f"Total sequence count: {sequence_count}")
 
@@ -183,11 +189,12 @@ def calculate_divergence(all_sequence_probs, sequence_count, epsilon=1e-12, KL=T
         )
         divergence = np.log2(sum_product) / (alpha - 1)
     return divergence
-def calculate_topk_probabilities(tokenizer, prediction_model, tokenized_context, sequences_to_eval, secrets_paired_to_context, device="cuda", k=1000, depth=5, max_batch_size=128, rank_among_R=True, allow_filler_tokens=False):
+def calculate_topk_probabilities(tokenizer, prediction_model, tokenized_context, sequences_to_eval, secrets_paired_to_context, device="cuda", k=1000, depth=5, max_batch_size=128, rank_among_R=True, allow_filler_tokens=False, epsilon=1e-12):
     """
-    rank_among_R: If true, we calculate the probabilities of the sequences to eval. If false, we calculate the probabilities of the generated sequences
+    rank_among_R: If true, we calculate the probabilities of the sequences to eval masking the termination token and tokens outside top-k. If false, we calculate the probabilities of the generated sequences
     allow_filler_tokens: If false, we prune branches that are not substrings of sequences, if True, we do not prune since filler tokens are allowed.
     """
+    index_end_of_sequence = tokenizer.encode(tokenizer.eos_token) #100257 in Olmo 3
     all_sequence_probs = []
     target_token_seqs = [
                         torch.tensor(tokenizer.encode(s, add_special_tokens=False), device=device)
@@ -215,11 +222,10 @@ def calculate_topk_probabilities(tokenizer, prediction_model, tokenized_context,
 
             with torch.no_grad():
                 logits = prediction_model(batch_seqs).logits[:, -1, :]  # [batch_size, vocab_size]
-                log_probs = torch.log_softmax(logits, dim=-1)  # [batch_size, vocab_size]
-
-            # Get top-k for each sequence in the batch
-
-            topk_logprobs, topk_indices = torch.topk(log_probs, k, dim=-1)  # Both: [batch_size, k]
+                logits[:,index_end_of_sequence] = float("-inf")
+                topk_logits, topk_indices = torch.topk(logits, k, dim=-1) # Both: [batch_size, k]
+                
+                topk_logprobs = torch.log_softmax(topk_logits, dim=-1)  # [batch_size, k]
 
             # Expand sequences
             for i in range(len(batch_sequences)):
@@ -235,7 +241,7 @@ def calculate_topk_probabilities(tokenizer, prediction_model, tokenized_context,
                                         target_token_seqs
                                         )
                     if allow_filler_tokens or (not rank_among_R) or has_prefix_match:
-                        new_sequences.append((new_seq, seq_logprob + token_logprob + 1e-12))
+                        new_sequences.append((new_seq, seq_logprob + token_logprob + epsilon))
 
         sequences = new_sequences
 
@@ -275,7 +281,8 @@ def calculate_topk_probabilities(tokenizer, prediction_model, tokenized_context,
     return words_probabilities, probs, sequence_count
 
 
-def calculate_greedy_probabilities(tokenizer, prediction_model, tokenized_context, sequences, secrets_paired_to_context, device="cuda"):
+def calculate_greedy_probabilities(tokenizer, prediction_model, tokenized_context, sequences, secrets_paired_to_context, temperature=1, device="cuda"):
+    assert temperature > 0, f"Temperature must be positive, got {temperature}"
     all_sequence_probs = []
     sequence_count = 0
     secrets_prob = {}
@@ -303,7 +310,7 @@ def calculate_greedy_probabilities(tokenizer, prediction_model, tokenized_contex
             logits = outputs.logits  # (1, seq_len, vocab)
 
         logits = logits - logits.max(dim=-1, keepdim=True).values
-        predictions_prob = F.softmax(logits, dim=-1)
+        predictions_prob = F.softmax(logits/temperature, dim=-1)
 
         log_prob = 0.0
         for k in range(context_len, len(full_input)):
@@ -367,20 +374,23 @@ def has_enough_tokens(text):
 
 
 
-def generate_sequences(random_space_dir="NOTEEVENTS_deanonymized.csv"):
+def generate_sequences(random_space_dir="NOTEEVENTS_deanonymized.csv", random_start=True, random_seed=42):
     """Generates random sequences from random_space_dir and adds the canary sequences from Dolma 3"""
 
     df = pd.read_csv(random_space_dir, on_bad_lines="skip")
     candidates = df[TEXT_COLUMN].dropna()
     candidates = candidates[candidates.apply(has_enough_tokens)]
-
+    random.seed(random_seed)
     sampled = random.sample(list(candidates), 500)
     unique_truncated = set()
 
     sampled_mimic = []
     for text in tqdm(sampled):
         tokens = tokenizer.encode(text, add_special_tokens=False)
-        random_start = rng.integers(low=0, high=len(tokens)-samples_max_length)
+        if random_start:
+            random_start = rng.integers(low=0, high=len(tokens)-samples_max_length)
+        else:
+            random_start = 0
         truncated_tokens = tokens[random_start:random_start+samples_max_length]
         truncated_text = tokenizer.decode(truncated_tokens)
         prev_size = len(unique_truncated)
