@@ -196,13 +196,15 @@ def compute_renyi_divergence_alpha_and_ranking(
         print("No secrets found for the specified key.")
         return None, None, None, None
 
+
     divergence = calculate_divergence(suffix_probs_list, sequence_count, KL=KL, alpha=alpha)
+
 
     return divergence, ranking, suffix_probs_list, generated_sequences
 
 
 
-def calculate_divergence(all_sequence_probs, sequence_count, epsilon=1e-12, KL=True, alpha=0.5):
+def calculate_divergence(all_sequence_probs, sequence_count, epsilon=1e-12, KL=True, alpha=0.5): 
     total_prob = sum(all_sequence_probs)
     if total_prob == 0:
         return float("inf")
